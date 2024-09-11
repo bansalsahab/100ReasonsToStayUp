@@ -24,7 +24,9 @@ public class ThirdMaximumNumber {
             }
         }
 
-        return hasThird ? (int) third : (int) first;
+        return (third != Long.MIN_VALUE) ? (int) third : (int) first;
+
+        
     }
 }
   
